@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ntDMgUz9LzA=",
+  "success": true,
+  "projectFilePath": "/Users/primaryuser/RiderProjects/p4/p4/p4.csproj",
+  "expectedPackageFiles": [
+    "/Users/primaryuser/.nuget/packages/mstest.testframework/3.6.3/mstest.testframework.3.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

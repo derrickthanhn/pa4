@@ -1,5 +1,0 @@
-C:\Users\dewin\RiderProjects\pa4\pa4\obj\Debug\net8.0\pa4.csproj.AssemblyReference.cache
-C:\Users\dewin\RiderProjects\pa4\pa4\obj\Debug\net8.0\pa4.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dewin\RiderProjects\pa4\pa4\obj\Debug\net8.0\pa4.AssemblyInfoInputs.cache
-C:\Users\dewin\RiderProjects\pa4\pa4\obj\Debug\net8.0\pa4.AssemblyInfo.cs
-C:\Users\dewin\RiderProjects\pa4\pa4\obj\Debug\net8.0\pa4.csproj.CoreCompileInputs.cache
