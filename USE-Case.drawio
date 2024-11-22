@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="XZs9pchJt2skl-dzKOJ4">
+    <mxGraphModel dx="661" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4E1WIZI_g8nrPCG1JwFK-5" target="4E1WIZI_g8nrPCG1JwFK-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-5" value="Customer&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4E1WIZI_g8nrPCG1JwFK-11" target="4E1WIZI_g8nrPCG1JwFK-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-11" value="Clerk&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="165" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-19" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="550" y="270" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4E1WIZI_g8nrPCG1JwFK-21" target="4E1WIZI_g8nrPCG1JwFK-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-21" value="POS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4E1WIZI_g8nrPCG1JwFK-28" target="4E1WIZI_g8nrPCG1JwFK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-28" value="Order" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-36" value="Enter Order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="517.6" y="165" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.747;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4E1WIZI_g8nrPCG1JwFK-28" target="4E1WIZI_g8nrPCG1JwFK-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="440" as="sourcePoint" />
+            <mxPoint x="480" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-38" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.json;gradientColor=#DFDEDE" vertex="1" parent="1">
+          <mxGeometry x="517.6" y="400" width="102.4" height="102.4" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-40" value="If system is down" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-45" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="250" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-39" value="Order Details Stored In&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4E1WIZI_g8nrPCG1JwFK-45">
+          <mxGeometry x="120" y="145" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-42" value="&lt;div&gt;Submit&amp;nbsp; Order&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4E1WIZI_g8nrPCG1JwFK-45">
+          <mxGeometry y="145" width="40" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="4E1WIZI_g8nrPCG1JwFK-45" source="4E1WIZI_g8nrPCG1JwFK-42" target="4E1WIZI_g8nrPCG1JwFK-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="4E1WIZI_g8nrPCG1JwFK-45" source="4E1WIZI_g8nrPCG1JwFK-42" target="4E1WIZI_g8nrPCG1JwFK-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4E1WIZI_g8nrPCG1JwFK-48" value="Details Gathered" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4E1WIZI_g8nrPCG1JwFK-45">
+          <mxGeometry x="30" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
