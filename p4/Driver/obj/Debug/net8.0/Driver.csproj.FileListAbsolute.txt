@@ -1,0 +1,12 @@
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/bin/Debug/net8.0/Driver.deps.json
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/bin/Debug/net8.0/Driver.dll
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/bin/Debug/net8.0/Driver.pdb
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/Driver.GeneratedMSBuildEditorConfig.editorconfig
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/Driver.AssemblyInfoInputs.cache
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/Driver.AssemblyInfo.cs
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/Driver.csproj.CoreCompileInputs.cache
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/Driver.sourcelink.json
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/Driver.dll
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/refint/Driver.dll
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/Driver.pdb
+/Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/ref/Driver.dll
