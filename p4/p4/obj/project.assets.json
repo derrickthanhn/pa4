@@ -211,11 +211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/primaryuser/RiderProjects/p4/p4/p4.csproj",
+      "projectUniqueName": "/Users/primaryuser/Documents/GitHub/pa4/p4/p4/p4.csproj",
       "projectName": "p4",
-      "projectPath": "/Users/primaryuser/RiderProjects/p4/p4/p4.csproj",
+      "projectPath": "/Users/primaryuser/Documents/GitHub/pa4/p4/p4/p4.csproj",
       "packagesPath": "/Users/primaryuser/.nuget/packages/",
-      "outputPath": "/Users/primaryuser/RiderProjects/p4/p4/obj/",
+      "outputPath": "/Users/primaryuser/Documents/GitHub/pa4/p4/p4/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/primaryuser/.nuget/NuGet/NuGet.Config"
