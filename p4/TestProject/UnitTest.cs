@@ -12,7 +12,7 @@ public class UnitTest
     public void TestOrderCreation()
     {
         // Placeholder for testing Order creation.
-        OrderClassLibrary.Order order = new OrderClassLibrary.Order();
+        Order order = new Order();
         Assert.IsNotNull(order);
     }
     
@@ -20,7 +20,7 @@ public class UnitTest
     public void TestDetailItemCreation()
     {
         // Placeholder for testing DetailItem creation.
-        OrderClassLibrary.DetailItem detailItem = new OrderClassLibrary.DetailItem();
+        DetailItem detailItem = new DetailItem();
         Assert.IsNotNull(detailItem);
     }
 }

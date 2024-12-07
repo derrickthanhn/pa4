@@ -11,7 +11,7 @@ public class Driver
         Console.WriteLine("Order System Driver - Demonstrating Class Functionality");
 
         // Create an order
-        var order = new OrderClassLibrary.Order
+        var order = new Order
         {
             OrderNum = 1000,
             OrderTime = DateTime.Now,
@@ -23,7 +23,7 @@ public class Driver
         };
 
         // Add detail items to the order
-        var detail1 = new OrderClassLibrary.DetailItem
+        var detail1 = new DetailItem
         {
             DetailNumber = 1,
             StockID = "ELECT001",
@@ -32,7 +32,7 @@ public class Driver
             Quantity = 1
         };
 
-        var detail2 = new OrderClassLibrary.DetailItem
+        var detail2 = new DetailItem
         {
             DetailNumber = 2,
             StockID = "ELECT044",
