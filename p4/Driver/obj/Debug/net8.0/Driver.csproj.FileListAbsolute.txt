@@ -10,3 +10,11 @@
 /Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/refint/Driver.dll
 /Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/Driver.pdb
 /Users/primaryuser/Documents/GitHub/pa4/p4/Driver/obj/Debug/net8.0/ref/Driver.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.AssemblyInfoInputs.cache
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.AssemblyInfo.cs
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.csproj.CoreCompileInputs.cache
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.sourcelink.json
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\refint\Driver.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.pdb

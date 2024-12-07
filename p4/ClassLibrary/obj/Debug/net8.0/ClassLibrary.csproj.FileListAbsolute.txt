@@ -10,3 +10,15 @@
 /Users/primaryuser/Documents/GitHub/pa4/p4/ClassLibrary/obj/Debug/net8.0/refint/ClassLibrary.dll
 /Users/primaryuser/Documents/GitHub/pa4/p4/ClassLibrary/obj/Debug/net8.0/ClassLibrary.pdb
 /Users/primaryuser/Documents/GitHub/pa4/p4/ClassLibrary/obj/Debug/net8.0/ref/ClassLibrary.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\bin\Debug\net8.0\ClassLibrary.deps.json
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\bin\Debug\net8.0\ClassLibrary.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\bin\Debug\net8.0\ClassLibrary.pdb
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ClassLibrary.sourcelink.json
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ClassLibrary.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\refint\ClassLibrary.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ClassLibrary.pdb
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ref\ClassLibrary.dll
