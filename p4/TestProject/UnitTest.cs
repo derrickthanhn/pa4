@@ -3,7 +3,6 @@
 //unit tester to check if functions work
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-namespace p4;
 
 [TestClass]
 public class UnitTest
@@ -17,10 +16,49 @@ public class UnitTest
     }
     
     [TestMethod]
-    public void TestDetailItemCreation()
+    public void DeepCopy_ShouldCreateNewInstanceWithSameValues()
     {
-        // Placeholder for testing DetailItem creation.
-        DetailItem detailItem = new DetailItem();
-        Assert.IsNotNull(detailItem);
+        // Arrange
+        var original = new DetailItem
+        {
+            OrderNumber = 1000,
+            DetailNumber = 1,
+            StockID = "ELECT001",
+            StockName = "42 Inch TV",
+            StockPrice = 300.00m,
+            Quantity = 1
+        };
+
+        // Act
+        var copy = original.DeepCopy();
+
+        // Assert
+        Assert.IsNotNull(copy);
+        Assert.AreNotSame(original, copy);
+        Assert.AreEqual(original.OrderNumber, copy.OrderNumber);
+        Assert.AreEqual(original.DetailNumber, copy.DetailNumber);
+        Assert.AreEqual(original.StockID, copy.StockID);
+        Assert.AreEqual(original.StockName, copy.StockName);
+        Assert.AreEqual(original.StockPrice, copy.StockPrice);
+        Assert.AreEqual(original.Quantity, copy.Quantity);
     }
+    
+    [TestMethod]
+    public void CalculateTotal_ShouldReturnCorrectAmount()
+    {
+        // Arrange
+        var order = new Order
+        {
+            DetailItems = new List<DetailItem>
+            {
+                new DetailItem { StockPrice = 300.00m, Quantity = 1 }, // Total: 300.00
+                new DetailItem { StockPrice = 50.00m, Quantity = 2 }   // Total: 100.00
+            }
+        };
+        
+        // Assert
+        Assert.AreEqual(400.00m, order.TotalAmount);
+    }
+    
+    
 }

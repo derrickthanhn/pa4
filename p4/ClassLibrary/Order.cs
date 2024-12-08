@@ -37,7 +37,25 @@ public class Order
         //creates new isntane of order wtih all detail copied
         public Order DeepCopy()
         {
-            return null; 
+            // Create a new Order instance
+            var copy = new Order
+            {
+                OrderNum = this.OrderNum,
+                OrderTime = this.OrderTime,
+                CustomerName = this.CustomerName,
+                CustomerPhone = this.CustomerPhone,
+                TaxAmount = this.TaxAmount,
+                TariffAmount = this.TariffAmount,
+                TotalAmount = this.TotalAmount
+            };
+
+            // Deep copy each DetailItem
+            foreach (var detailItem in this.DetailItems)
+            {
+                copy.DetailItems.Add(detailItem.DeepCopy());
+            }
+
+            return copy;
         }
 }
     
