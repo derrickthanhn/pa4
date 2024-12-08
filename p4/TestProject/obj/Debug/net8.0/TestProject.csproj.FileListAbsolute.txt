@@ -19,3 +19,13 @@ C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\obj\Debug\net8.0\Tes
 C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\obj\Debug\net8.0\refint\TestProject.dll
 C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\obj\Debug\net8.0\TestProject.pdb
 C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\obj\Debug\net8.0\TestProject.csproj.AssemblyReference.cache
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\bin\Debug\net8.0\Microsoft.Protocols.TestTools.AdapterConsole.runtimeconfig.json
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\bin\Debug\net8.0\TestProject.deps.json
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\bin\Debug\net8.0\TestProject.runtimeconfig.json
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\bin\Debug\net8.0\TestProject.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\bin\Debug\net8.0\TestProject.pdb
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\bin\Debug\net8.0\ClassLibrary.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\bin\Debug\net8.0\ClassLibrary.pdb
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\obj\Debug\net8.0\TestProject.csproj.CopyComplete
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\TestProject\obj\Debug\net8.0\ref\TestProject.dll

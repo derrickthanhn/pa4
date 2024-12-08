@@ -22,3 +22,6 @@ C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\Cl
 C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\refint\ClassLibrary.dll
 C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ClassLibrary.pdb
 C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ref\ClassLibrary.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\bin\Debug\net8.0\ClassLibrary.runtimeconfig.json
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\ClassLibrary\obj\Debug\net8.0\ClassLibrary.genruntimeconfig.cache

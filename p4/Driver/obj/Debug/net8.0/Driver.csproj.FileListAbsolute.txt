@@ -18,3 +18,16 @@ C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.s
 C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.dll
 C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\refint\Driver.dll
 C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.pdb
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\bin\Debug\net8.0\Microsoft.Protocols.TestTools.AdapterConsole.runtimeconfig.json
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\bin\Debug\net8.0\Driver.deps.json
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\bin\Debug\net8.0\Driver.runtimeconfig.json
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\bin\Debug\net8.0\Driver.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\bin\Debug\net8.0\Driver.pdb
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\bin\Debug\net8.0\ClassLibrary.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\bin\Debug\net8.0\TestProject.dll
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\bin\Debug\net8.0\TestProject.pdb
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\bin\Debug\net8.0\ClassLibrary.pdb
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.csproj.AssemblyReference.cache
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.csproj.CopyComplete
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\Driver.genruntimeconfig.cache
+C:\Users\dewin\OneDrive\Documents\GitHub\pa4\p4\Driver\obj\Debug\net8.0\ref\Driver.dll

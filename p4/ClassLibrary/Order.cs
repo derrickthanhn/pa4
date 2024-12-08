@@ -6,8 +6,8 @@
     //Represents customers order
     //Total must not be neg 
     //Ordernumber must be unique
-    public class Order
-    {
+public class Order
+{
         public Order()
         {
             DetailItems = new List<DetailItem>();
@@ -37,7 +37,7 @@
         //creates new isntane of order wtih all detail copied
         public Order DeepCopy()
         {
-            return null;
+            return null; 
         }
-    }
+}
     

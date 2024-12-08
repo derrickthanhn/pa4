@@ -15,7 +15,33 @@ public class DetailItem
     //deep copy constructor
     public DetailItem DeepCopy()
     {
-        return null;
+        return new DetailItem
+        {
+            OrderNumber = this.OrderNumber,
+            DetailNumber = this.DetailNumber,
+            StockID = this.StockID,
+            StockName = this.StockName,
+            StockPrice = this.StockPrice,
+            Quantity = this.Quantity
+        };
     }
-    
+
+    /// <summary>
+    /// Default constructor for DetailItem.
+    /// </summary>
+    public DetailItem() { }
+
+    /// <summary>
+    /// Parameterized constructor for DetailItem.
+    /// </summary>
+    public DetailItem(int orderNumber, int detailNumber, string stockID, string stockName, decimal stockPrice, int quantity)
+    {
+        OrderNumber = orderNumber;
+        DetailNumber = detailNumber;
+        StockID = stockID;
+        StockName = stockName;
+        StockPrice = stockPrice;
+        Quantity = quantity;
+    }
 }
+
