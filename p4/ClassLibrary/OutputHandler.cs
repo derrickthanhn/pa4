@@ -4,5 +4,6 @@
 
 public interface OutputHandler
     {
+        //holds writeorder
         void WriteOrder(Order order);
     }

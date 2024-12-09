@@ -7,6 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 [TestClass]
 public class UnitTest
 {
+    //tests order creation
     [TestMethod]
     public void TestOrderCreation()
     {
@@ -15,6 +16,7 @@ public class UnitTest
         Assert.IsNotNull(order);
     }
     
+    //tests deepcopy
     [TestMethod]
     public void DeepCopy_ShouldCreateNewInstanceWithSameValues()
     {
@@ -43,6 +45,7 @@ public class UnitTest
         Assert.AreEqual(original.Quantity, copy.Quantity);
     }
     
+    //tests total
     [TestMethod]
     public void CalculateTotal_ShouldReturnCorrectAmount()
     {
@@ -59,6 +62,4 @@ public class UnitTest
         // Assert
         Assert.AreEqual(400.00m, order.TotalAmount);
     }
-    
-    
 }

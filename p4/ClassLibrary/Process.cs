@@ -9,11 +9,15 @@ public class OrderProcessor
     //post: all calculated
     public void ProcessOrder(Order order)
     {
-        if (order == null) throw new ArgumentNullException(nameof(order));
+        //if none returns null 
+        if (order == null)
+        {
+            throw new ArgumentNullException(nameof(order));
+        }
 
         decimal totalAmount = 0;
         decimal tariffAmount = 0;
-
+        //for each order, continues to run 
         foreach (var detail in order.DetailItems)
         {
             totalAmount += detail.StockPrice * detail.Quantity;

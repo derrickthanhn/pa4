@@ -12,17 +12,13 @@ public class SQLIteOutputHandler : OutputHandler
     {
         private readonly string _connectionString;
 
-        /// <summary>
         /// Constructor to initialize the connection string.
-        /// </summary>
         public SQLIteOutputHandler(string databasePath = "orders.db")
         {
             _connectionString = $"Data Source={databasePath};Version=3;";
         }
 
-        /// <summary>
         /// Creates a reusable SQLite connection.
-        /// </summary>
         private SQLiteConnection GetConnection()
         {
             var connection = new SQLiteConnection(_connectionString);
@@ -30,9 +26,7 @@ public class SQLIteOutputHandler : OutputHandler
             return connection;
         }
 
-        /// <summary>
         /// Writes an order and its details to the database.
-        /// </summary>
         public void WriteOrder(Order order)
         {
             using var connection = GetConnection();
@@ -69,9 +63,7 @@ public class SQLIteOutputHandler : OutputHandler
             }
         }
 
-        /// <summary>
         /// Ensures that necessary tables exist in the database.
-        /// </summary>
         private void CreateTablesIfNotExist(SQLiteConnection connection)
         {
             string createOrdersTable = @"

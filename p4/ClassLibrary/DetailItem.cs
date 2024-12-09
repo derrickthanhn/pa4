@@ -1,9 +1,10 @@
 ﻿//Derrick Nguyen
 //DetailItem.cs
 //help process orders for use
-//Represents an order
+//Represents an order and details of the order
 public class DetailItem
 {
+    //variables for details of detailitem
     public int OrderNumber { get; set; }
     public int DetailNumber { get; set; }
     public string StockID { get; set; }
@@ -26,9 +27,7 @@ public class DetailItem
         };
     }
 
-    /// <summary>
     /// Default constructor for DetailItem.
-    /// </summary>
     public DetailItem() { }
 
     /// <summary>

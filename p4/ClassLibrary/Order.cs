@@ -8,12 +8,13 @@
     //Ordernumber must be unique
 public class Order
 {
+        //constructor
         public Order()
         {
             DetailItems = new List<DetailItem>();
         }
 
-        //Attributes
+        //variables
         public int OrderNum { get; set; }
         public DateTime OrderTime { get; set; }
         public string CustomerName { get; set; }

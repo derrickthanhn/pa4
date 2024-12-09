@@ -11,6 +11,7 @@ using System.IO;
     {
         private const string ConnectionString = "Data Source=:memory:";
 
+        //Tests connection
         [TestMethod]
         public void SQLite_Connection_ShouldOpenSuccessfully()
         {
@@ -23,7 +24,7 @@ using System.IO;
             // Assert
             Assert.AreEqual(System.Data.ConnectionState.Open, connection.State);
         }
-
+        //tests if details are inserted correctly 
         [TestMethod]
         public void SQLite_ShouldInsertOrderDetailsSuccessfully()
         {

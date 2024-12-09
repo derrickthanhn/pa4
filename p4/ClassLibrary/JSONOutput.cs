@@ -2,6 +2,7 @@
 //JSONOutput.cs
 //Writes orders to JSON file
 using System.Text.Json;
+//inherits output handler in order to create output 
 public class JSONOutput : OutputHandler
 {
     public void WriteOrder(Order order)
