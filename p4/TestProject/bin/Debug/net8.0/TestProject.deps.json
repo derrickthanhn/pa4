@@ -9,14 +9,17 @@
       "TestProject/1.0.0": {
         "dependencies": {
           "ClassLibrary": "1.0.0",
-          "Microsoft.NETCore.Platforms": "7.0.4",
           "Microsoft.Protocols.TestTools": "2.5.0",
-          "NuGet.VisualStudio": "17.12.1"
+          "NUnit": "4.2.2",
+          "NUnit.Analyzers": "4.4.0",
+          "NUnit3TestAdapter": "5.0.0-beta.5",
+          "coverlet.collector": "6.0.2"
         },
         "runtime": {
           "TestProject.dll": {}
         }
       },
+      "coverlet.collector/6.0.2": {},
       "EntityFramework/6.4.4": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -87,14 +90,14 @@
           }
         }
       },
-      "Microsoft.ApplicationInsights/2.21.0": {
+      "Microsoft.ApplicationInsights/2.22.0": {
         "dependencies": {
           "System.Diagnostics.DiagnosticSource": "8.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.ApplicationInsights.dll": {
-            "assemblyVersion": "2.21.0.429",
-            "fileVersion": "2.21.0.429"
+            "assemblyVersion": "2.22.0.997",
+            "fileVersion": "2.22.0.997"
           }
         }
       },
@@ -258,56 +261,55 @@
             "rid": "win-arm64",
             "assetType": "runtime",
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.17763.30000"
+            "fileVersion": "10.0.10011.16384"
           },
           "runtimes/win-arm64/lib/netstandard1.6/microsoft.management.infrastructure.native.dll": {
             "rid": "win-arm64",
             "assetType": "runtime",
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.17763.30000"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/lib/netstandard1.6/microsoft.management.infrastructure.dll": {
             "rid": "win-x64",
             "assetType": "runtime",
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.17763.30000"
+            "fileVersion": "10.0.10011.16384"
           },
           "runtimes/win-x64/lib/netstandard1.6/microsoft.management.infrastructure.native.dll": {
             "rid": "win-x64",
             "assetType": "runtime",
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.17763.30000"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/lib/netstandard1.6/microsoft.management.infrastructure.dll": {
             "rid": "win-x86",
             "assetType": "runtime",
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.17763.30000"
+            "fileVersion": "10.0.10011.16384"
           },
           "runtimes/win-x86/lib/netstandard1.6/microsoft.management.infrastructure.native.dll": {
             "rid": "win-x86",
             "assetType": "runtime",
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "10.0.17763.30000"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/native/microsoft.management.infrastructure.native.unmanaged.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "10.0.17763.30000"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/microsoft.management.infrastructure.native.unmanaged.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "6.3.9600.18144"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/microsoft.management.infrastructure.native.unmanaged.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "6.3.9600.18144"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
-      "Microsoft.NETCore.Platforms/7.0.4": {},
       "Microsoft.PowerShell.Commands.Diagnostics/7.4.1": {
         "dependencies": {
           "System.Management.Automation": "7.4.1"
@@ -441,42 +443,42 @@
           "runtimes/win-arm/native/PowerShell.Core.Instrumentation.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "10.0.10011.16384"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm/native/pwrshplugin.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "10.0.10011.16384"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/native/PowerShell.Core.Instrumentation.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "10.0.10011.16384"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/native/pwrshplugin.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "10.0.10011.16384"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/PowerShell.Core.Instrumentation.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "10.0.10011.16384"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/pwrshplugin.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "10.0.10011.16384"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/PowerShell.Core.Instrumentation.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "10.0.10011.16384"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/pwrshplugin.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "10.0.10011.16384"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -564,25 +566,25 @@
             "rid": "win-arm",
             "assetType": "runtime",
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25098.1000"
+            "fileVersion": "10.0.10011.16384"
           },
           "runtimes/win-arm64/lib/net5.0/getfilesiginforedistwrapper.dll": {
             "rid": "win-arm64",
             "assetType": "runtime",
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25098.1000"
+            "fileVersion": "10.0.10011.16384"
           },
           "runtimes/win-x64/lib/net5.0/getfilesiginforedistwrapper.dll": {
             "rid": "win-x64",
             "assetType": "runtime",
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25098.1000"
+            "fileVersion": "10.0.10011.16384"
           },
           "runtimes/win-x86/lib/net5.0/getfilesiginforedistwrapper.dll": {
             "rid": "win-x86",
             "assetType": "runtime",
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25098.1000"
+            "fileVersion": "10.0.10011.16384"
           },
           "runtimes/win-arm/native/getfilesiginforedist.dll": {
             "rid": "win-arm",
@@ -606,92 +608,322 @@
           }
         }
       },
-      "Microsoft.VisualStudio.ComponentModelHost/17.10.191": {
+      "Microsoft.Testing.Extensions.Telemetry/1.4.1": {
         "dependencies": {
-          "Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime": "17.10.40152",
-          "Microsoft.VisualStudio.Interop": "17.10.40170",
-          "Microsoft.VisualStudio.Validation": "17.8.8",
-          "System.ComponentModel.Composition": "8.0.0"
+          "Microsoft.ApplicationInsights": "2.22.0",
+          "Microsoft.Testing.Platform": "1.4.1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.VisualStudio.ComponentModelHost.dll": {
-            "assemblyVersion": "17.0.0.0",
-            "fileVersion": "17.10.191.32824"
-          }
-        }
-      },
-      "Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime/17.10.40152": {
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll": {
-            "assemblyVersion": "14.0.0.0",
-            "fileVersion": "14.0.25023.0"
-          }
-        }
-      },
-      "Microsoft.VisualStudio.Interop/17.10.40170": {
-        "runtime": {
-          "lib/net8.0/Microsoft.VisualStudio.Interop.dll": {
-            "assemblyVersion": "17.0.0.0",
-            "fileVersion": "17.10.40152.10824"
-          }
-        }
-      },
-      "Microsoft.VisualStudio.TemplateWizardInterface/17.10.40170": {
-        "dependencies": {
-          "Microsoft.VisualStudio.Interop": "17.10.40170"
-        },
-        "runtime": {
-          "lib/net472/Microsoft.VisualStudio.TemplateWizardInterface.dll": {
-            "assemblyVersion": "17.0.0.0",
-            "fileVersion": "17.10.40170.36112"
-          }
-        }
-      },
-      "Microsoft.VisualStudio.Validation/17.8.8": {
-        "runtime": {
-          "lib/net6.0/Microsoft.VisualStudio.Validation.dll": {
-            "assemblyVersion": "17.8.0.0",
-            "fileVersion": "17.8.8.15457"
+          "lib/net8.0/Microsoft.Testing.Extensions.Telemetry.dll": {
+            "assemblyVersion": "1.4.1.0",
+            "fileVersion": "1.400.124.50204"
           }
         },
         "resources": {
-          "lib/net6.0/cs/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/cs/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "cs"
           },
-          "lib/net6.0/de/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/de/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "de"
           },
-          "lib/net6.0/es/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/es/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "es"
           },
-          "lib/net6.0/fr/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/fr/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "fr"
           },
-          "lib/net6.0/it/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/it/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "it"
           },
-          "lib/net6.0/ja/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/ja/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "ja"
           },
-          "lib/net6.0/ko/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/ko/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "ko"
           },
-          "lib/net6.0/pl/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/pl/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "pl"
           },
-          "lib/net6.0/pt-BR/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/pt-BR/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net6.0/ru/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/ru/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "ru"
           },
-          "lib/net6.0/tr/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/tr/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "tr"
           },
-          "lib/net6.0/zh-Hans/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/zh-Hans/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
             "locale": "zh-Hans"
           },
-          "lib/net6.0/zh-Hant/Microsoft.VisualStudio.Validation.resources.dll": {
+          "lib/net8.0/zh-Hant/Microsoft.Testing.Extensions.Telemetry.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Testing.Extensions.TrxReport.Abstractions/1.4.1": {
+        "dependencies": {
+          "Microsoft.Testing.Platform": "1.4.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Testing.Extensions.TrxReport.Abstractions.dll": {
+            "assemblyVersion": "1.4.1.0",
+            "fileVersion": "1.400.124.50204"
+          }
+        }
+      },
+      "Microsoft.Testing.Extensions.VSTestBridge/1.4.1": {
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "2.22.0",
+          "Microsoft.TestPlatform.ObjectModel": "17.11.1",
+          "Microsoft.Testing.Extensions.Telemetry": "1.4.1",
+          "Microsoft.Testing.Extensions.TrxReport.Abstractions": "1.4.1",
+          "Microsoft.Testing.Platform": "1.4.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Testing.Extensions.VSTestBridge.dll": {
+            "assemblyVersion": "1.4.1.0",
+            "fileVersion": "1.400.124.50204"
+          }
+        },
+        "resources": {
+          "lib/net8.0/cs/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Microsoft.Testing.Extensions.VSTestBridge.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Testing.Platform/1.4.1": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Testing.Platform.dll": {
+            "assemblyVersion": "1.4.1.0",
+            "fileVersion": "1.400.124.50204"
+          }
+        },
+        "resources": {
+          "lib/net8.0/cs/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Microsoft.Testing.Platform.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Testing.Platform.MSBuild/1.4.1": {
+        "dependencies": {
+          "Microsoft.Testing.Platform": "1.4.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Testing.Platform.MSBuild.dll": {
+            "assemblyVersion": "1.4.1.0",
+            "fileVersion": "1.400.124.50204"
+          }
+        },
+        "resources": {
+          "lib/net8.0/cs/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/Microsoft.Testing.Platform.MSBuild.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.TestPlatform.ObjectModel/17.11.1": {
+        "dependencies": {
+          "System.Reflection.Metadata": "7.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.TestPlatform.CoreUtilities.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "17.1100.124.45402"
+          },
+          "lib/netcoreapp3.1/Microsoft.TestPlatform.PlatformAbstractions.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "17.1100.124.45402"
+          },
+          "lib/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "17.1100.124.45402"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/de/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/de/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/es/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/es/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/fr/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/fr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/it/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/it/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/ja/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ja/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ko/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/ko/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/pl/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pl/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pt-BR/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/pt-BR/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/ru/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/ru/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/tr/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/tr/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll": {
             "locale": "zh-Hant"
           }
         }
@@ -855,16 +1087,23 @@
           }
         }
       },
-      "NuGet.VisualStudio/17.12.1": {
-        "dependencies": {
-          "Microsoft.VisualStudio.ComponentModelHost": "17.10.191",
-          "Microsoft.VisualStudio.TemplateWizardInterface": "17.10.40170"
-        },
+      "NUnit/4.2.2": {
         "runtime": {
-          "lib/net472/NuGet.VisualStudio.dll": {
-            "assemblyVersion": "17.12.1.0",
-            "fileVersion": "6.12.1.1"
+          "lib/net6.0/nunit.framework.dll": {
+            "assemblyVersion": "4.2.2.0",
+            "fileVersion": "4.2.2.0"
+          },
+          "lib/net6.0/nunit.framework.legacy.dll": {
+            "assemblyVersion": "4.2.2.0",
+            "fileVersion": "4.2.2.0"
           }
+        }
+      },
+      "NUnit.Analyzers/4.4.0": {},
+      "NUnit3TestAdapter/5.0.0-beta.5": {
+        "dependencies": {
+          "Microsoft.Testing.Extensions.VSTestBridge": "1.4.1",
+          "Microsoft.Testing.Platform.MSBuild": "1.4.1"
         }
       },
       "runtime.linux-arm.runtime.native.System.IO.Ports/8.0.0": {
@@ -933,7 +1172,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -942,7 +1181,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -951,31 +1190,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "4.6.25512.1"
-          }
-        }
-      },
-      "SQLite/3.13.0": {
-        "runtimeTargets": {
-          "runtimes/linux-x64/native/libsqlite3.so": {
-            "rid": "linux-x64",
-            "assetType": "native",
             "fileVersion": "0.0.0.0"
-          },
-          "runtimes/osx-x64/native/libsqlite3.dylib": {
-            "rid": "osx-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win7-x64/native/sqlite3.dll": {
-            "rid": "win7-x64",
-            "assetType": "native",
-            "fileVersion": "3.13.0.0"
-          },
-          "runtimes/win7-x86/native/sqlite3.dll": {
-            "rid": "win7-x86",
-            "assetType": "native",
-            "fileVersion": "3.13.0.0"
           }
         }
       },
@@ -1000,12 +1215,12 @@
           "runtimes/win-x64/native/SQLite.Interop.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "1.0.119.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/SQLite.Interop.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "1.0.119.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1194,7 +1409,7 @@
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "8.0.23.53103"
           },
           "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
             "rid": "win",
@@ -1354,7 +1569,7 @@
       },
       "System.Management.Automation/7.4.1": {
         "dependencies": {
-          "Microsoft.ApplicationInsights": "2.21.0",
+          "Microsoft.ApplicationInsights": "2.22.0",
           "Microsoft.Management.Infrastructure": "3.0.0",
           "Microsoft.PowerShell.CoreCLR.Eventing": "7.4.1",
           "Microsoft.PowerShell.Native": "7.4.0",
@@ -1741,7 +1956,6 @@
       },
       "ClassLibrary/1.0.0": {
         "dependencies": {
-          "SQLite": "3.13.0",
           "System.Data.SQLite": "1.0.119"
         },
         "runtime": {
@@ -1755,6 +1969,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "coverlet.collector/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bJShQ6uWRTQ100ZeyiMqcFlhP7WJ+bCuabUs885dJiBEzMsJMSFr7BOyeCw4rgvQokteGi5rKQTlkhfQPUXg2A==",
+      "path": "coverlet.collector/6.0.2",
+      "hashPath": "coverlet.collector.6.0.2.nupkg.sha512"
     },
     "EntityFramework/6.4.4": {
       "type": "package",
@@ -1798,12 +2019,12 @@
       "path": "markdig.signed/0.33.0",
       "hashPath": "markdig.signed.0.33.0.nupkg.sha512"
     },
-    "Microsoft.ApplicationInsights/2.21.0": {
+    "Microsoft.ApplicationInsights/2.22.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-btZEDWAFNo9CoYliMCriSMTX3ruRGZTtYw4mo2XyyfLlowFicYVM2Xszi5evDG95QRYV7MbbH3D2RqVwfZlJHw==",
-      "path": "microsoft.applicationinsights/2.21.0",
-      "hashPath": "microsoft.applicationinsights.2.21.0.nupkg.sha512"
+      "sha512": "sha512-3AOM9bZtku7RQwHyMEY3tQMrHIgjcfRDa6YQpd/QG2LDGvMydSlL9Di+8LLMt7J2RDdfJ7/2jdYv6yHcMJAnNw==",
+      "path": "microsoft.applicationinsights/2.22.0",
+      "hashPath": "microsoft.applicationinsights.2.22.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
       "type": "package",
@@ -1874,13 +2095,6 @@
       "sha512": "sha512-uwMyWN33+iQ8Wm/n1yoPXgFoiYNd0HzJyoqSVhaQZyJfaQrJR3udgcIHjqa1qbc3lS6kvfuUMN4TrF4U4refCQ==",
       "path": "microsoft.management.infrastructure.runtime.win/3.0.0",
       "hashPath": "microsoft.management.infrastructure.runtime.win.3.0.0.nupkg.sha512"
-    },
-    "Microsoft.NETCore.Platforms/7.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-yLEHlNN7O5WiND89r42sepgVwy5W/ZoTiFEdJDV7MHR1lW02LL7Nipz2TD5qM/Kx9W3/k3NP+PAP2qUdOm+leg==",
-      "path": "microsoft.netcore.platforms/7.0.4",
-      "hashPath": "microsoft.netcore.platforms.7.0.4.nupkg.sha512"
     },
     "Microsoft.PowerShell.Commands.Diagnostics/7.4.1": {
       "type": "package",
@@ -1959,40 +2173,47 @@
       "path": "microsoft.security.extensions/1.2.0",
       "hashPath": "microsoft.security.extensions.1.2.0.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.ComponentModelHost/17.10.191": {
+    "Microsoft.Testing.Extensions.Telemetry/1.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-knxkhd4x0qH8/Jivc8e4McyLnTOytCpVQaJqGv7EO8qbkj14wklWEw5D2W/gP+eF4+5TRxSAnsZClFzFxOrdeA==",
-      "path": "microsoft.visualstudio.componentmodelhost/17.10.191",
-      "hashPath": "microsoft.visualstudio.componentmodelhost.17.10.191.nupkg.sha512"
+      "sha512": "sha512-Li2CRKPN8LExJRakkaUV9Xq/VeezAkTG1Vp+bcuonES6VoCIKufnc9f5GwxYX5I9DIWWxwgR0UeowlkpOIKxiA==",
+      "path": "microsoft.testing.extensions.telemetry/1.4.1",
+      "hashPath": "microsoft.testing.extensions.telemetry.1.4.1.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime/17.10.40152": {
+    "Microsoft.Testing.Extensions.TrxReport.Abstractions/1.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9TelRAa2c4hYjPEmijKq04DG41QZ7Vt0BeES2FQq/mi8ctD/rqNj3OFUNnhTN8NY8yrYg+5hDXN1uf+1yG72Eg==",
-      "path": "microsoft.visualstudio.imaging.interop.14.0.designtime/17.10.40152",
-      "hashPath": "microsoft.visualstudio.imaging.interop.14.0.designtime.17.10.40152.nupkg.sha512"
+      "sha512": "sha512-FJRIgh2cWPQmAmfWDkdROW94LjFCaRrcnBa6uX2xkcXL3SXqJN43RfbP5xMDCE7FyXXHBFBLyfKhIZ1L2lh9FA==",
+      "path": "microsoft.testing.extensions.trxreport.abstractions/1.4.1",
+      "hashPath": "microsoft.testing.extensions.trxreport.abstractions.1.4.1.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Interop/17.10.40170": {
+    "Microsoft.Testing.Extensions.VSTestBridge/1.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sHqM5VIAbBn5I7soTAjvNFL1c36Dsp9sKN2x2tj9Y7gxVami/o5Z+0uTMUOzHmcIOrSGeU9ldQ+OUKLUCZic8Q==",
-      "path": "microsoft.visualstudio.interop/17.10.40170",
-      "hashPath": "microsoft.visualstudio.interop.17.10.40170.nupkg.sha512"
+      "sha512": "sha512-57U75DJEpN+JMJUfyEef57KlXfwtNMHuFd2j5+7VIiwli4oDCwGCZfSNLY/mQ1NcVPTdsLvW2awwMLdxiV7Ysg==",
+      "path": "microsoft.testing.extensions.vstestbridge/1.4.1",
+      "hashPath": "microsoft.testing.extensions.vstestbridge.1.4.1.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.TemplateWizardInterface/17.10.40170": {
+    "Microsoft.Testing.Platform/1.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eUAtGnWKn0Osn6aG549/w7WyzINfySrMWQFfHUcFVb/o0HMPXDf2x+euPEjg8s9kCM6eUWDw60UgGo1OdHtrUw==",
-      "path": "microsoft.visualstudio.templatewizardinterface/17.10.40170",
-      "hashPath": "microsoft.visualstudio.templatewizardinterface.17.10.40170.nupkg.sha512"
+      "sha512": "sha512-LT+DsDCtQL0x8tuClGk5mkBfeSdBuCgMX7UCE44H0JoayvOHhnbKCT5DElo2XNPclCbgm1PsPvePNPYQxV+X9w==",
+      "path": "microsoft.testing.platform/1.4.1",
+      "hashPath": "microsoft.testing.platform.1.4.1.nupkg.sha512"
     },
-    "Microsoft.VisualStudio.Validation/17.8.8": {
+    "Microsoft.Testing.Platform.MSBuild/1.4.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rWXThIpyQd4YIXghNkiv2+VLvzS+MCMKVRDR0GAMlflsdo+YcAN2g2r5U1Ah98OFjQMRexTFtXQQ2LkajxZi3g==",
-      "path": "microsoft.visualstudio.validation/17.8.8",
-      "hashPath": "microsoft.visualstudio.validation.17.8.8.nupkg.sha512"
+      "sha512": "sha512-2Vct6WOIUxJJy64srxB2uhZCe6ZxPVlA43VNdJJjvO8oSyy+vLCW4Vv37LNLnnj+XFq3QVo0KOOaVAtLgbnGGg==",
+      "path": "microsoft.testing.platform.msbuild/1.4.1",
+      "hashPath": "microsoft.testing.platform.msbuild.1.4.1.nupkg.sha512"
+    },
+    "Microsoft.TestPlatform.ObjectModel/17.11.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E2jZqAU6JeWEVsyOEOrSW1o1bpHLgb25ypvKNB/moBXPVsFYBPd/Jwi7OrYahG50J83LfHzezYI+GaEkpAotiA==",
+      "path": "microsoft.testplatform.objectmodel/17.11.1",
+      "hashPath": "microsoft.testplatform.objectmodel.17.11.1.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.7.0": {
       "type": "package",
@@ -2050,12 +2271,26 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-    "NuGet.VisualStudio/17.12.1": {
+    "NUnit/4.2.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TWVqMpTV+vz0aeJrXCnlnZMuNqp6/PhXo8YeaxceFlnbckhapHKdJoFB9WzQv6lZfrNYrbQo9S4r4wrW3qnNJQ==",
-      "path": "nuget.visualstudio/17.12.1",
-      "hashPath": "nuget.visualstudio.17.12.1.nupkg.sha512"
+      "sha512": "sha512-mon0OPko28yZ/foVXrhiUvq1LReaGsBdziumyyYGxV/pOE4q92fuYeN+AF+gEU5pCjzykcdBt5l7xobTaiBjsg==",
+      "path": "nunit/4.2.2",
+      "hashPath": "nunit.4.2.2.nupkg.sha512"
+    },
+    "NUnit.Analyzers/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VVl1CuQttXRZh52HRw5SIOut3qXw4pmuiTYk02jTELVWZ9uYRY8IVl2qF9Zs7W0ElPiLDUrAglFBzNLBCPzEcw==",
+      "path": "nunit.analyzers/4.4.0",
+      "hashPath": "nunit.analyzers.4.4.0.nupkg.sha512"
+    },
+    "NUnit3TestAdapter/5.0.0-beta.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MWwsiCXmY4GgEfE/5MRJs2u0b/3CygzJd6yqBC5bUo19TrR9mPpIthXxu/0SpBh+f3mO59geJioHIC6z5yoTpA==",
+      "path": "nunit3testadapter/5.0.0-beta.5",
+      "hashPath": "nunit3testadapter.5.0.0-beta.5.nupkg.sha512"
     },
     "runtime.linux-arm.runtime.native.System.IO.Ports/8.0.0": {
       "type": "package",
@@ -2126,13 +2361,6 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
-    },
-    "SQLite/3.13.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
-      "path": "sqlite/3.13.0",
-      "hashPath": "sqlite.3.13.0.nupkg.sha512"
     },
     "Stub.System.Data.SQLite.Core.NetStandard/1.0.119": {
       "type": "package",

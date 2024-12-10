@@ -30,9 +30,7 @@ public class DetailItem
     /// Default constructor for DetailItem.
     public DetailItem() { }
 
-    /// <summary>
     /// Parameterized constructor for DetailItem.
-    /// </summary>
     public DetailItem(int orderNumber, int detailNumber, string stockID, string stockName, decimal stockPrice, int quantity)
     {
         OrderNumber = orderNumber;

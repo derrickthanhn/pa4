@@ -4,9 +4,9 @@
 
 using System;
 
-public class Driver
+class Driver
     {
-        public static void Main(string[] args)
+        public static void Main(String[] args)
         {
             // Create a new Order
             var order = new Order
